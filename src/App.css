@@ -1,0 +1,114 @@
+body {
+  font-family: "Lato Extended", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  display: flex; /* Add flex display */
+  justify-content: space-between; /* Add space between items */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  background-color: #6930c3;
+  height: 70px;
+  padding: 15px;
+  align-content: center; /* This should be align-items */
+  color: #ddd;
+  font-weight: 900;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.transaction-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction-fields label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#transaction-search {
+  margin-left: auto; /* Align to the right */
+  background-color: #0056b3;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#submit {
+  background-color: #6930c3;
+  color: #fff;
+  cursor: pointer;
+  width: 200px;
+  align-items: center;
+}
+
+button:hover,
+#transaction-search:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.error {
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
