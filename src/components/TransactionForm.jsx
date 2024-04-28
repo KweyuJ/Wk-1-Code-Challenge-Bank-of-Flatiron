@@ -22,7 +22,7 @@ function TransactionForm({ onAddTransaction }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="transaction-fields"> {/* Wrapping div for transaction fields */}
+      <div className="transaction-fields">
         <label>
           Date:
           <input

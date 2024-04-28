@@ -12,8 +12,8 @@ body {
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  display: flex; /* Add flex display */
-  justify-content: space-between; /* Add space between items */
+  display: flex;
+  justify-content: space-between; 
 }
 
 h1 {
@@ -21,8 +21,8 @@ h1 {
   margin-bottom: 20px;
   background-color: #6930c3;
   height: 70px;
-  padding: 15px;
-  align-content: center; /* This should be align-items */
+  padding: 15px; 
+  align-content: center;
   color: #ddd;
   font-weight: 900;
 }
@@ -58,7 +58,7 @@ button {
 }
 
 #transaction-search {
-  margin-left: auto; /* Align to the right */
+  margin-left: auto;
   background-color: #0056b3;
   color: #fff;
   cursor: pointer;

@@ -41,7 +41,7 @@ function App() {
       description: "Paycheck from Bob's Burgers",
       category: "Income",
       amount: 1000,
-    },
+    }
   ]);
   
   const [filteredTransactions, setFilteredTransactions] = useState([
