@@ -24,6 +24,7 @@ const searchIcon = <FontAwesomeIcon icon={faSearch} />
         onChange={handleSearchChange}
         placeholder="Search your Recent Transactions"
       />
+      {/* This icon below here when clicked will search for the recent transaction */}
         <button id='transaction-search' onClick={handleSearch}>
           {searchIcon} 
         </button>
